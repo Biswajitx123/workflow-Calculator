@@ -1,6 +1,6 @@
 name: Simple Calculator
 
-on: [push]
+on: push
 
 jobs:
   calculator-job:

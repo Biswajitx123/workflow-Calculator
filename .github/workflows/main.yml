@@ -1,11 +1,19 @@
-name: Calculator
-on: push
+name: Simple Calculator
+
+on: [push]
+
 jobs:
   calculator-job:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Add two numbers
-        run: echo "5+3 = $((5+3))"
+        run: echo "5 + 3 = $((5 + 3))"
 
       - name: Subtract two numbers
-        run: echo "10-4 = $((10 - 4))"
+        run: echo "10 - 4 = $((10 - 4))"
+
+      - name: Multiply two numbers
+        run: echo "6 * 7 = $((6 * 7))"
+
+      - name: Divide two numbers
+        run: echo "20 / 5 = $((20 / 5))"

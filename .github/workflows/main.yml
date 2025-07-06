@@ -7,13 +7,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add two numbers
-        run: echo "5 + 3 = $((5 + 3))"
+        run: echo "10 + 25 = $((10 + 25))"
 
       - name: Subtract two numbers
-        run: echo "10 - 4 = $((10 - 4))"
+        run: echo "35 - 31 = $((35 - 31))"
 
       - name: Multiply two numbers
-        run: echo "6 * 7 = $((6 * 7))"
+        run: echo "10 * 10 = $((10 * 10))"
 
       - name: Divide two numbers
-        run: echo "20 / 5 = $((20 / 5))"
+        run: echo "100 / 20 = $((100 / 20))"

@@ -5,4 +5,7 @@ jobs:
     runs-on: ubantu-latest
     steps:
       - name: Add two numbers
-        run: echo "5+3"
+        run: echo "5+3 = $((5+3))"
+
+      - name: Subtract two numbers
+        run: echo "10-4 = $((10 - 4))"

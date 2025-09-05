@@ -17,3 +17,6 @@ jobs:
 
       - name: Divide two numbers
         run: echo "100 / 20 = $((100 / 20))"
+
+      - name: Divide numbers
+        run: echo "100 / 20 = $((100 / 20))"

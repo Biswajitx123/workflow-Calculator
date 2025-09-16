@@ -15,6 +15,9 @@ jobs:
       - name: Multiply two numbers
         run: echo "10 * 10 = $((10 * 10))"
 
+      - name: Multiply two numbers
+        run: echo "11 * 12 = $((10 * 10))"
+
       - name: Divide two numbers
         run: echo "100 / 20 = $((100 / 20))"
 
